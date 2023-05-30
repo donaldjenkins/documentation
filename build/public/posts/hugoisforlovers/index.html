@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=65300&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" [4.0.0] - 2023-05-28 # New release.
-[4.0.0.]: https://github.com/donaldjenkins/policies/blob/main/privacy.md
-Changed # Group licenses into four categories for greater clarity. Remove reference to WordPress license. Clarify references to logo and site dress copyright status. Added # Add reference to Hugo Apache 2.0 license. Add reference to Kensington Theme source code and MIT License. Fixed # Fix miscellaneous typos. ">
+<meta name="description" content="Step 1. Install Hugo # Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs # Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
-<meta property="og:description" content=" [4.0.0] - 2023-05-28 # New release.
-[4.0.0.]: https://github.com/donaldjenkins/policies/blob/main/privacy.md
-Changed # Group licenses into four categories for greater clarity. Remove reference to WordPress license. Clarify references to logo and site dress copyright status. Added # Add reference to Hugo Apache 2.0 license. Add reference to Kensington Theme source code and MIT License. Fixed # Fix miscellaneous typos. " />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Getting Started with Hugo" />
+<meta property="og:description" content="Step 1. Install Hugo # Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs # Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="//localhost:1313/" /><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2023-05-28T15:45:25+00:00" />
-<meta property="article:modified_time" content="2023-05-30T00:33:58-04:00" />
-<title>2023 05 28 | Documentation</title>
+<meta property="og:url" content="//localhost:65300/posts/hugoisforlovers/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-05-30T06:29:14-04:00" />
+<title>Getting Started with Hugo | Documentation</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.b974ec6d659aa6659f72738210b9a634f498c98e052d5f0d7ea1a5708eb6e8fd.css" integrity="sha256-uXTsbWWapmWfcnOCELmmNPSYyY4FLV8NfqGlcI626P0=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.aea791d7cc612f40ef9ae1217a4ebb3a0280ebcaecfa0e83d7912cc75f9f7681.js" integrity="sha256-rqeR18xhL0DvmuEhek67OgKA68rs&#43;g6D15Esx1&#43;fdoE=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.b7b016a78cc711666a4e0aa8327a667d983eb6f2d0800fbd8f0335a0e3642e0b.js" integrity="sha256-t7AWp4zHEWZqTgqoMnpmfZg&#43;tvLQgA&#43;9jwM1oONkLgs=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -216,7 +220,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-67bb45d7c99707d2f9b764fae7df924d" class="toggle" checked />
+    <input type="checkbox" id="section-67bb45d7c99707d2f9b764fae7df924d" class="toggle"  />
     <label for="section-67bb45d7c99707d2f9b764fae7df924d" class="flex justify-between">
       <a href="/docs/changelog/terms/" class="">Terms</a>
     </label>
@@ -232,7 +236,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/" class="active">2023 05 28</a>
+    <a href="/" class="">2023 05 28</a>
   
 
         </li>
@@ -524,7 +528,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>2023 05 28</strong>
+  <strong>Getting Started with Hugo</strong>
 
   <label for="toc-control">
     
@@ -542,13 +546,10 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li>
       <ul>
-        <li><a href="#400---2023-05-28">[4.0.0] - 2023-05-28</a>
-          <ul>
-            <li><a href="#changed">Changed</a></li>
-            <li><a href="#added">Added</a></li>
-            <li><a href="#fixed">Fixed</a></li>
-          </ul>
-        </li>
+        <li><a href="#step-1-install-hugo">Step 1. Install Hugo</a></li>
+        <li><a href="#step-2-build-the-docs">Step 2. Build the Docs</a></li>
+        <li><a href="#step-3-change-the-docs-site">Step 3. Change the docs site</a></li>
+        <li><a href="#step-4-have-fun">Step 4. Have fun</a></li>
       </ul>
     </li>
   </ul>
@@ -563,36 +564,87 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="400---2023-05-28">
-  [4.0.0] - 2023-05-28
-  <a class="anchor" href="#400---2023-05-28">#</a>
+<article class="markdown">
+  <h1>
+    <a href="/posts/hugoisforlovers/">Getting Started with Hugo</a>
+  </h1>
+  
+  <h5>April 2, 2014</h5>
+
+
+
+  
+
+  
+
+
+
+<h2 id="step-1-install-hugo">
+  Step 1. Install Hugo
+  <a class="anchor" href="#step-1-install-hugo">#</a>
 </h2>
-<p><em>New release.</em></p>
-<p>[4.0.0.]: <a href="https://github.com/donaldjenkins/policies/blob/main/privacy.md">https://github.com/donaldjenkins/policies/blob/main/privacy.md</a></p>
-<h3 id="changed">
-  Changed
-  <a class="anchor" href="#changed">#</a>
-</h3>
-<ul>
-<li>Group licenses into four categories for greater clarity.</li>
-<li>Remove reference to WordPress license.</li>
-<li>Clarify references to logo and site dress copyright status.</li>
-</ul>
-<h3 id="added">
-  Added
-  <a class="anchor" href="#added">#</a>
-</h3>
-<ul>
-<li>Add reference to Hugo Apache 2.0 license.</li>
-<li>Add reference to Kensington Theme source code and MIT License.</li>
-</ul>
-<h3 id="fixed">
-  Fixed
-  <a class="anchor" href="#fixed">#</a>
-</h3>
-<ul>
-<li>Fix miscellaneous typos.</li>
-</ul>
+<p>Go to <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the
+appropriate version for your OS and architecture.</p>
+<p>Save it somewhere specific as we will be using it in the next step.</p>
+<p>More complete instructions are available at <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a></p>
+<h2 id="step-2-build-the-docs">
+  Step 2. Build the Docs
+  <a class="anchor" href="#step-2-build-the-docs">#</a>
+</h2>
+<p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.</p>
+<p>Follow the following steps:</p>
+<ol>
+<li>Clone the <a href="http://github.com/spf13/hugo">Hugo repository</a></li>
+<li>Go into the repo</li>
+<li>Run hugo in server mode and build the docs</li>
+<li>Open your browser to http://localhost:1313</li>
+</ol>
+<p>Corresponding pseudo commands:</p>
+<pre><code>git clone https://github.com/spf13/hugo
+cd hugo
+/path/to/where/you/installed/hugo server --source=./docs
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Press ctrl+c to stop
+</code></pre>
+<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
+<h2 id="step-3-change-the-docs-site">
+  Step 3. Change the docs site
+  <a class="anchor" href="#step-3-change-the-docs-site">#</a>
+</h2>
+<p>Stop the Hugo process by hitting Ctrl+C.</p>
+<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
+<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
+&gt; Press ctrl+c to stop
+</code></pre>
+<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
+content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
+<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
+are located at the same relative location as the url, in our case
+<code>docs/content/overview/quickstart.md</code>.</p>
+<p>Change and save this file.. Notice what happened in your terminal.</p>
+<pre><code>&gt; Change detected, rebuilding site
+
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 26 ms
+</code></pre>
+<p>Refresh the browser and observe that the typo is now fixed.</p>
+<p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building. I double dare you.
+Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
+<h2 id="step-4-have-fun">
+  Step 4. Have fun
+  <a class="anchor" href="#step-4-have-fun">#</a>
+</h2>
+<p>The best way to learn something is to play with it.</p>
 </article>
  
       
@@ -636,13 +688,10 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li>
       <ul>
-        <li><a href="#400---2023-05-28">[4.0.0] - 2023-05-28</a>
-          <ul>
-            <li><a href="#changed">Changed</a></li>
-            <li><a href="#added">Added</a></li>
-            <li><a href="#fixed">Fixed</a></li>
-          </ul>
-        </li>
+        <li><a href="#step-1-install-hugo">Step 1. Install Hugo</a></li>
+        <li><a href="#step-2-build-the-docs">Step 2. Build the Docs</a></li>
+        <li><a href="#step-3-change-the-docs-site">Step 3. Change the docs site</a></li>
+        <li><a href="#step-4-have-fun">Step 4. Have fun</a></li>
       </ul>
     </li>
   </ul>

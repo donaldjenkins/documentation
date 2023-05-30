@@ -3,14 +3,6 @@ Title: Privacy Policy
 bookCollapseSection: true
 ---
 
-# Section
-
-Section renders pages in section as definition list, using title and description.
-
-## Example
-
-```tpl
-{{</* section */>}}
-```
+**The archives for all Donald Jenkins's previous Privacy Policies can be consulted here. The archived versions are not current: see the [current](https://www.donaldjenkins.com/policies/privacy) version.**
 
 {{<section>}}
