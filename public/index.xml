@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policies on Documentation</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Policies on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 03:20:07 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a New Theme</title>
+      <link>//localhost:1313/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/creating-a-new-theme/</guid>
+      <description>Introduction # This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>//localhost:1313/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/terms/2023-05-28/</link>
+      <pubDate>Sun, 28 May 2023 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/terms/2023-05-28/</guid>
+      <description> [4.0.0] - 2023-05-28 # New release.
+[4.0.0.]: https://github.com/donaldjenkins/policies/blob/main/privacy.md
+Changed # Group licenses into four categories for greater clarity. Remove reference to WordPress license. Clarify references to logo and site dress copyright status. Added # Add reference to Hugo Apache 2.0 license. Add reference to Kensington Theme source code and MIT License. Fixed # Fix miscellaneous typos. </description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>//localhost:1313/docs/policies/privacy/</link>
+      <pubDate>Sun, 28 May 2023 03:20:07 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/policies/privacy/</guid>
+      <description>This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information. We promise we never sell your data: never have, never will.
+Definitions · Agreement to applicable policies # Donald Jenkins is committed to protecting the privacy of visitors to this Website. We have established this Privacy Policy to explain what information we collect on this Website and how it is used, as well as the protections we afford your Personal Information.</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>//localhost:1313/docs/policies/terms/</link>
+      <pubDate>Sun, 28 May 2023 03:20:07 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/policies/terms/</guid>
+      <description>These Terms and Conditions of Use (the Terms), as well as the separately available Privacy Policy, which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.
+Definitions · Agreement to Terms # Understanding these Terms is important, because, to use this Website, you must accept these terms.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/terms/2021-01-12/</link>
+      <pubDate>Tue, 12 Jan 2021 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/terms/2021-01-12/</guid>
+      <description>[3.0.1] - 2021-01-12 # [3.0.1.]: https://github.com/donaldjenkins/policies/blob/main/archives/terms/terms-2021-01-12.md
+Changed # Change Twitter notice of changes to exclude minor/grammatical typographical fixes.
+Fix miscellaneous typos.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/terms/2020-12-27/</link>
+      <pubDate>Sun, 27 Dec 2020 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/terms/2020-12-27/</guid>
+      <description> [3.0.0] - 2020-12-27 # New release.
+[3.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/terms/terms-2020-12-27.md
+Changed # Redraft and clarify Terms of Service. Title changed to Terms. Added # Add Definitions. Add notice of change of Terms to Twitter. </description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>//localhost:1313/posts/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>//localhost:1313/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo # Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs # Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/privacy/privacy-policy-2012-03-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/privacy/privacy-policy-2012-03-07/</guid>
+      <description>1. Disclaimer | Privacy Policy | Hosting # Website Visitors # Like most website operators, donaldjenkins.com collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. donaldjenkins.com’s purpose in collecting non- personally identifying information is to better understand how donaldjenkins.com’s visitors use its website. From time to time, donaldjenkins.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/privacy/privacy-policy-2019-05-30/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/privacy/privacy-policy-2019-05-30/</guid>
+      <description>Privacy Policy # This Privacy Policy was last revised on 30th May, 2019.
+Deﬁnitions · Agreement to applicable policies # This Privacy Policy explains the collection, use, processing, transferring and disclosure of personal information by the website located at www.donaldjenkins.com (“donaldjenkins.com” or “this Website”), and all associated sites linked to www.donaldjenkins.com by Donald Jenkins, his subsidiaries and afﬁliates, including other donaldjenkins.* sites around the world (collectively, “this Website”). This Website is the property of Donald Jenkins (“Donald Jenkins”) and his licensors.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/privacy/privacy-policy-2021-01-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/privacy/privacy-policy-2021-01-12/</guid>
+      <description>Privacy Policy # This Privacy Policy was last revised on 14th January, 2021: see the changelog.
+Definitions · Agreement to applicable policies # Donald Jenkins is committed to protecting the privacy of visitors to this Website. We have established this Privacy Policy to explain what information we collect on this Website and how it is used, as well as the protections we afford your Personal Information.
+This Privacy Policy is incorporated into the Terms for this Website.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/terms/terms-2012-03-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/terms/terms-2012-03-07/</guid>
+      <description>Terms of Service # 7th March, 2012.
+The donaldjenkins.com website (“Website”) is a hosted service operated by donaldjenkins.com (“donaldjenkins.com”). Any use of the Website is subject to the following Terms and Conditions of Use (“Terms and Conditions”), as well as to donaldjenkins.com’s Privacy Policy and the Website Licensing Policy, all of which are incorporated by reference into these Terms and Conditions. Your use of the Website will constitute your acceptance of these terms and conditions.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/terms/terms-2020-04-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/terms/terms-2020-04-27/</guid>
+      <description>Terms of Service # These Terms of Service were last revised on 27th April, 2020.
+Definitions · Agreement to Terms of Service # These Terms and Conditions of Service (the “Terms of Service”), as well as the separately available Privacy Policy, which is incorporated by reference into these Terms of Service, apply to the website located at www.donaldjenkins.com, and all associated sites linked to www.donaldjenkins.com by Donald Jenkins, his subsidiaries and affiliates, including other donaldjenkins.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/terms/terms-2020-12-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/terms/terms-2020-12-27/</guid>
+      <description>Terms # These Terms were last revised on 12th January, 2021: see the changelog.
+Definitions · Agreement to Terms # These Terms and Conditions of Use (the &amp;ldquo;Terms&amp;rdquo;), as well as the separately available Privacy Policy, which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/terms/terms-2021-01-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/terms/terms-2021-01-12/</guid>
+      <description>Terms # These Terms were last revised on 12th January, 2021: see the changelog.
+Definitions · Agreement to Terms # These Terms and Conditions of Use (the &amp;ldquo;Terms&amp;rdquo;), as well as the separately available Privacy Policy, which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/terms/2012-03-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/terms/2012-03-07/</guid>
+      <description> [1.0.0] - 2012-03-07 # Initial release.
+[1.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/terms/terms-2012-03-07.md
+Initial Terms of Service. Attribution: WordPress (Automattic). DMCA Policy. Separately-published licensing policy. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/terms/2020-04-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/terms/2020-04-27/</guid>
+      <description> [2.0.0] - 2020-04-27 # New release.
+[2.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/terms/terms-2020-04-27.md
+Changed # Clarify and redraft Terms of Service. Redraft Copyright section. </description>
+    </item>
+    
+  </channel>
+</rss>

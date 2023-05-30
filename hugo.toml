@@ -1,3 +1,28 @@
-baseURL = 'http://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Documentation'
+theme = "hugo-book"
+
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+  
+  [menu]
+  # [[menu.before]]
+  [[menu.after]]
+    name = "Home"
+    url = "https://www.donaldjenkins.com/"
+    weight = 1
+  
+  [[menu.after]]
+    name = "Contact"
+    url = "https://www.donaldjenkins.com/contact"
+    weight = 2

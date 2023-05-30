@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policies (current) on Documentation</title>
+    <link>//localhost:1313/docs/policies/</link>
+    <description>Recent content in Policies (current) on Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 03:20:07 +0000</lastBuildDate><atom:link href="//localhost:1313/docs/policies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>//localhost:1313/docs/policies/privacy/</link>
+      <pubDate>Sun, 28 May 2023 03:20:07 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/policies/privacy/</guid>
+      <description>This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information. We promise we never sell your data: never have, never will.
+Definitions · Agreement to applicable policies # Donald Jenkins is committed to protecting the privacy of visitors to this Website. We have established this Privacy Policy to explain what information we collect on this Website and how it is used, as well as the protections we afford your Personal Information.</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>//localhost:1313/docs/policies/terms/</link>
+      <pubDate>Sun, 28 May 2023 03:20:07 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/policies/terms/</guid>
+      <description>These Terms and Conditions of Use (the Terms), as well as the separately available Privacy Policy, which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.
+Definitions · Agreement to Terms # Understanding these Terms is important, because, to use this Website, you must accept these terms.</description>
+    </item>
+    
+  </channel>
+</rss>
