@@ -3,7 +3,7 @@ title: Policies
 type: docs
 ---
 
-This page sums up the way this Website operates, the laws that apply to it, who we are, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/policies/terms/) and [Privacy Policy](/policies/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.
+# Documentation for donaldjenkins.com
 
 | Terms                                                                                                                                                                          | Privacy Policy                                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

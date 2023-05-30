@@ -5,8 +5,7 @@
     <link>//localhost:1313/</link>
     <description>Recent content in Policies on Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 03:20:07 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>//localhost:1313/posts/creating-a-new-theme/</link>
@@ -26,6 +25,17 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <description>Move static content to static # Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2023-05-28/</link>
+      <pubDate>Sun, 28 May 2023 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2023-05-28/</guid>
+      <description>[4.0.0] - 2023-05-28 # New release.
+[4.0.0.]: https://github.com/donaldjenkins/policies/blob/main/privacy.md
+Changed # Remove references to Google Analytics (no longer used). Clarify that users are not individually tracked in any way. Clarify references to GDPR Added # Add reference to Plausible Analytics. Add reference to Amazon SES. Add reference to Cloudflare. Add reference to California Civil Code Section §1798.83. Fixed # -Fix miscellaneous typos</description>
     </item>
     
     <item>
@@ -61,6 +71,16 @@ Definitions · Agreement to Terms # Understanding these Terms is important, beca
     
     <item>
       <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2021-01-12/</link>
+      <pubDate>Tue, 12 Jan 2021 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2021-01-12/</guid>
+      <description> [3.0.1] - 2021-01-12 # [3.0.1.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2021-01-12.md
+Fixed # No longer post grammatical corrections and typos to Twitter feed Miscellaneous typos </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>//localhost:1313/docs/changelog/terms/2021-01-12/</link>
       <pubDate>Tue, 12 Jan 2021 15:45:25 +0000</pubDate>
       
@@ -72,6 +92,17 @@ Fix miscellaneous typos.</description>
     
     <item>
       <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2020-12-27/</link>
+      <pubDate>Sun, 27 Dec 2020 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2020-12-27/</guid>
+      <description> [3.0.0] - 2020-12-27 # New release.
+[3.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2020-12-27.md
+Changed # Clarifications and new safeguards. Rewrite and clarify introduction. Improve and clarify references to Google Analytics. Clarify information sharing cases. Explain reasons why California Consumer Privacy Act not applicable. Added # Add definitions. Undertake to post notice on Twitter of changes to Privacy Policy introduced. Add concluding personal statement by Website owner added. </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>//localhost:1313/docs/changelog/terms/2020-12-27/</link>
       <pubDate>Sun, 27 Dec 2020 15:45:25 +0000</pubDate>
       
@@ -79,6 +110,17 @@ Fix miscellaneous typos.</description>
       <description> [3.0.0] - 2020-12-27 # New release.
 [3.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/terms/terms-2020-12-27.md
 Changed # Redraft and clarify Terms of Service. Title changed to Terms. Added # Add Definitions. Add notice of change of Terms to Twitter. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2019-05-30/</link>
+      <pubDate>Thu, 30 May 2019 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2019-05-30/</guid>
+      <description> [2.0.0] - 2019-05-30 # New release.
+[2.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2012-05-30.md
+Changed # New completely rewritten Privacy Policy. Added # Introduce definitions, collection of Personal Information: Google Analytics; Contact Form. Add GDPR Policy. Add Retention policy. Add Disclaimers. Add Information on User Rights. Add Complaint Procedure. </description>
     </item>
     
     <item>
@@ -106,6 +148,17 @@ Follow the following steps:</description>
     
     <item>
       <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2012-03-07/</link>
+      <pubDate>Wed, 07 Mar 2012 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2012-03-07/</guid>
+      <description>[1.0.0] - 2012-03-07 # Initial release.
+[1.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2012-12-07.md
+First introduction of a Privacy Policy. Attribution: Automattic Privacy Policy with Creative Commons Attribution-Share Alike 3.0 Generic license.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>//localhost:1313/docs/archives/privacy/privacy-policy-2012-03-07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -121,6 +174,19 @@ Follow the following steps:</description>
       <guid>//localhost:1313/docs/archives/privacy/privacy-policy-2019-05-30/</guid>
       <description>Privacy Policy # This Privacy Policy was last revised on 30th May, 2019.
 Deﬁnitions · Agreement to applicable policies # This Privacy Policy explains the collection, use, processing, transferring and disclosure of personal information by the website located at www.donaldjenkins.com (“donaldjenkins.com” or “this Website”), and all associated sites linked to www.donaldjenkins.com by Donald Jenkins, his subsidiaries and afﬁliates, including other donaldjenkins.* sites around the world (collectively, “this Website”). This Website is the property of Donald Jenkins (“Donald Jenkins”) and his licensors.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/archives/privacy/privacy-policy-2020-12-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/archives/privacy/privacy-policy-2020-12-27/</guid>
+      <description>Privacy Policy
+This Privacy Policy was last revised on 27th December, 2020: see the changelog.
+Definitions · Agreement to applicable policies
+Donald Jenkins is committed to protecting the privacy of visitors to this Website. We have established this Privacy Policy to explain what information we collect on this Website and how it is used, as well as the protections we afford your Personal Information.
+This Privacy Policy is incorporated into the Terms for this Website.</description>
     </item>
     
     <item>

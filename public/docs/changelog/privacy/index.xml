@@ -6,5 +6,59 @@
     <description>Recent content in Privacy Policy on Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="//localhost:1313/docs/changelog/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2023-05-28/</link>
+      <pubDate>Sun, 28 May 2023 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2023-05-28/</guid>
+      <description>[4.0.0] - 2023-05-28 # New release.
+[4.0.0.]: https://github.com/donaldjenkins/policies/blob/main/privacy.md
+Changed # Remove references to Google Analytics (no longer used). Clarify that users are not individually tracked in any way. Clarify references to GDPR Added # Add reference to Plausible Analytics. Add reference to Amazon SES. Add reference to Cloudflare. Add reference to California Civil Code Section §1798.83. Fixed # -Fix miscellaneous typos</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2021-01-12/</link>
+      <pubDate>Tue, 12 Jan 2021 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2021-01-12/</guid>
+      <description> [3.0.1] - 2021-01-12 # [3.0.1.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2021-01-12.md
+Fixed # No longer post grammatical corrections and typos to Twitter feed Miscellaneous typos </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2020-12-27/</link>
+      <pubDate>Sun, 27 Dec 2020 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2020-12-27/</guid>
+      <description> [3.0.0] - 2020-12-27 # New release.
+[3.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2020-12-27.md
+Changed # Clarifications and new safeguards. Rewrite and clarify introduction. Improve and clarify references to Google Analytics. Clarify information sharing cases. Explain reasons why California Consumer Privacy Act not applicable. Added # Add definitions. Undertake to post notice on Twitter of changes to Privacy Policy introduced. Add concluding personal statement by Website owner added. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2019-05-30/</link>
+      <pubDate>Thu, 30 May 2019 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2019-05-30/</guid>
+      <description> [2.0.0] - 2019-05-30 # New release.
+[2.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2012-05-30.md
+Changed # New completely rewritten Privacy Policy. Added # Introduce definitions, collection of Personal Information: Google Analytics; Contact Form. Add GDPR Policy. Add Retention policy. Add Disclaimers. Add Information on User Rights. Add Complaint Procedure. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/changelog/privacy/2012-03-07/</link>
+      <pubDate>Wed, 07 Mar 2012 15:45:25 +0000</pubDate>
+      
+      <guid>//localhost:1313/docs/changelog/privacy/2012-03-07/</guid>
+      <description>[1.0.0] - 2012-03-07 # Initial release.
+[1.0.0.]: https://github.com/donaldjenkins/policies/blob/main/archives/privacy/privacy-policy-2012-12-07.md
+First introduction of a Privacy Policy. Attribution: Automattic Privacy Policy with Creative Commons Attribution-Share Alike 3.0 Generic license.</description>
+    </item>
+    
   </channel>
 </rss>
