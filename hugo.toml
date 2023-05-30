@@ -6,7 +6,7 @@ theme = "hugo-book"
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
-disableKinds = ['RSS', robotsTXT', 'taxonomy', 'term']
+disableKinds = ['RSS', 'robotsTXT', 'taxonomy', 'term']
 
 # Needed for mermaid/katex shortcodes
 [markup]
