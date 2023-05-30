@@ -12,6 +12,8 @@ disableKinds = ['RSS', 'robotsTXT', 'taxonomy', 'term']
 [markup]
 [markup.goldmark.renderer]
   unsafe = true
+[permalinks] 
+  docs = "/:slug"
 
 [markup.tableOfContents]
   startLevel = 1
