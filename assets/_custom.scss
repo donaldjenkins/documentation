@@ -1,0 +1,64 @@
+@use "sass:color";
+
+/// Hues
+$primary-hue: 56;
+$secondary-hue: 204;
+$tertiary-hue: 0;
+
+$success-hue: 135;
+$warning-hue: 37;
+$danger-hue: 8;
+
+$gurkha: hsl($primary-hue, 16%, 54%);
+$horizon: hsl($secondary-hue, 15%, 41%);
+$davys-gray: hsl(111, 0%, 34%);
+$concrete: hsl(117, 0%, 94%);
+$fuzzy-wuzzy-brown: hsl($tertiary-hue, 50%, 56%);
+$baja-white: hsl(49, 100%, 91%);
+$eton-blue: hsl($success-hue, 31%, 68%);
+$tomato: hsl($danger-hue, 96%, 63%);
+$papaya-whip: hsl($warning-hue, 100%, 92%);
+$slate: hsl(217, 29%, 72%);
+
+$hint-colors: (
+  info: hsl(217, 29%, 72%),
+  warning: hsl(36, 100%, 80%),
+  danger: $tomato,
+) !default;
+
+// Themes
+@mixin theme-light {
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-500: #adb5bd;
+
+  --color-link: $fuzzy-wuzzy-brown;
+  --color-visited-link: $slate;
+
+  --body-background: white;
+  --body-font-color: $davys-gray;
+
+  --icon-filter: none;
+
+  --hint-color-info: hsl(217, 29%, 72%);
+  --hint-color-warning: hsl(36, 100%, 80%);
+  --hint-color-danger: $tomato;
+}
+
+@mixin theme-dark {
+  --gray-100: rgba(255, 255, 255, 0.1);
+  --gray-200: rgba(255, 255, 255, 0.2);
+  --gray-500: rgba(255, 255, 255, 0.5);
+
+  --color-link: #84b2ff;
+  --color-visited-link: #b88dff;
+
+  --body-background: $davys-gray;
+  --body-font-color: #e9ecef;
+
+  --icon-filter: brightness(0) invert(1);
+
+  --hint-color-info: hsl(217, 29%, 72%);
+  --hint-color-warning: hsl(36, 100%, 80%);
+  --hint-color-danger: $tomato;
+}
