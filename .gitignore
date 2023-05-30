@@ -17,6 +17,7 @@ config.codekit3
 hugo_stats.json
 hugo.log
 hugo_stats.json
+exampleSite/public/
 
 # Temporary lock file while building
 /.hugo_build.lock
