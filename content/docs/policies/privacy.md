@@ -2,6 +2,7 @@
 title: "Privacy Policy"
 description: "The Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information."
 date: "2023-05-28T03:20:07+00:00"
+lastmod: "2023-05-28T03:20:07+00:00"
 slug: privacy
 layout: single
 sitemap_exclude: true
