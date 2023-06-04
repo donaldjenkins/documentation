@@ -1,3 +1,8 @@
+---
+date: 2019-15-30T15:45:25+00:00
+slug: 2019-15-30
+---
+
 # Privacy Policy
 
 This Privacy Policy was last revised on 30th May, 2019.

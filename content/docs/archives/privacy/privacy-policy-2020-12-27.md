@@ -1,3 +1,8 @@
+---
+date: 2020-12-27T15:45:25+00:00
+slug: 2020-12-27
+---
+
 **Privacy Policy**
 
 This Privacy Policy was last revised on 27th December, 2020: see the changelog.

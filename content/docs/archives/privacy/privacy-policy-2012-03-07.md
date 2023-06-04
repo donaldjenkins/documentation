@@ -1,3 +1,8 @@
+---
+date: 2012-03-07T15:45:25+00:00
+slug: 2012-03-07
+---
+
 # **1. Disclaimer | Privacy Policy | Hosting**
 
 ## Website Visitors
