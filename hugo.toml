@@ -15,9 +15,6 @@ disableKinds = ['RSS', 'robotsTXT', 'taxonomy', 'term']
   BookCommitPath = 'commit'
   BookComments = false
 
-[permalinks] 
-docs = "/:slug"
-
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
@@ -25,20 +22,20 @@ docs = "/:slug"
 
 [markup.tableOfContents]
   startLevel = 1
-  
+
   [menu]
   # [[menu.before]]
   [[menu.after]]
     name = "Release notes"
     url = "https://github.com/donaldjenkins/documentation/releases/"
     weight = 2
-    
+
   # [[menu.before]]
   [[menu.after]]
     name = "Home"
     url = "https://www.donaldjenkins.com/"
     weight = 2
-  
+
   [[menu.after]]
     name = "Contact"
     url = "https://www.donaldjenkins.com/contact"
